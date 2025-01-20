@@ -1,0 +1,51 @@
+.Add_bg {
+  background-image: url("../assets/BgImage.png");
+  background-size: 60%;
+  background-position: right;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.Add_bg img {
+  width: 12%;
+  margin-bottom: 8px;
+}
+
+.Add_bg p {
+  width: 25%;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .Add_bg {
+    background-size: 90%;
+    background-position: right bottom;
+  }
+
+  .Add_bg img {
+    width: 57%;
+    margin-bottom: 10px;
+    margin: 0px auto;
+  }
+
+  .Add_bg p {
+    width: 100%;
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .Add_bg {
+    background-image: url(/src/assets/BgImage.png), url(/src/assets/BgImage.png),
+      url(/src/assets/BgImage.png);
+    background-size: 46%, 55%, 64%;
+    background-position: 18rem -4rem, -10em 9rem, 4rem 36rem;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-color: #ffffff;
+    filter: brightness(0.9);
+  }
+}

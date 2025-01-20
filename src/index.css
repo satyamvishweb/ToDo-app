@@ -1,0 +1,27 @@
+.cursor{
+    cursor: pointer !important;
+}
+label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    margin: 2px 2px 5px 2px;
+}
+
+.Mobile_view {
+    display: none;
+  }
+  
+  .DeskTop_View {
+    display: block;
+  }
+  @media screen and (max-width: 768px) {
+    .Mobile_view {
+      display: block;
+    }
+  
+    .DeskTop_View {
+      display: none;
+    }
+  }  

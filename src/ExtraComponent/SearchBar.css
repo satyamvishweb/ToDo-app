@@ -1,0 +1,30 @@
+/* SearchBar.css */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Change to white or desired color */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 25px; /* Rounded shape */
+    padding: 10px; /* Padding around the input */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  }
+  
+  .search-icon {
+    color: #aaa; /* Icon color */
+    margin-right: 10px; /* Space between icon and input */
+  }
+  
+  .search-input {
+    border: none; /* No border */
+    outline: none; /* No outline */
+    background: transparent; /* Transparent background */
+    flex: 1; /* Take remaining space */
+    font-size: 16px; /* Font size */
+  }
+  
+  .search-input::placeholder {
+    color: #aaa; /* Placeholder color */
+  }
+  

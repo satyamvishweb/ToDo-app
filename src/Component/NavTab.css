@@ -1,0 +1,41 @@
+.navtab-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tabs-header {
+    display: flex;
+    justify-content: space-between; /* Space between tabs and user profile */
+    align-items: center;
+    padding: 10px 20px;
+    /* border-bottom: 1px solid #e0e0e0; */
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 15px; /* Space between the List and Board tabs */
+  }
+  
+  .tab-button {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between the icon and text */
+    padding: 8px 12px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    font-weight: bold;
+    border-bottom: 2px solid #007bff; /* Highlight active tab */
+  }
+  
+  
+  
+  .tab-content {
+    padding: 10px 20px;
+  }
+  

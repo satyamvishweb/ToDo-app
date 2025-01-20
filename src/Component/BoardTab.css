@@ -1,0 +1,12 @@
+.Arragne_dataPad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width:786px) {
+    .Arragne_dataPad{
+        flex-wrap: wrap;
+    }
+}

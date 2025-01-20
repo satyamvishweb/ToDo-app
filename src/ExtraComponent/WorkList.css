@@ -1,0 +1,87 @@
+/* Card Container */
+.worklist-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* max-width: 20rem; */
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .worklist-card:hover {
+    background-color: #f9fafb;
+  }
+  
+  /* Card Content */
+  .worklist-content {
+    padding: 10px 10px 1px 10px ;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Header Section */
+  .worklist-header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  .worklist-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #111827;
+    margin: 0;
+  }
+  
+  /* Icon Button */
+  .worklist-icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+  }
+  
+  .worklist-icon-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .worklist-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #6b7280;
+  }
+  
+  /* Footer Section */
+  /* Footer Section */
+.worklist-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem; /* Reduced gap */
+  }
+  
+  .worklist-category {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0px;
+}
+
+.worklist-date {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin-bottom: 0px;
+  }
+  

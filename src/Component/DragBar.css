@@ -1,0 +1,65 @@
+.drag-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    justify-content: space-between;
+    position: relative;
+    
+  }
+  
+  .drag-bar input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .title {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .date, .status, .category {
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .to-do-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .to-do-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hide dropdown menu by default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1050; 
+    right: 37px;
+    top: -72px;
+  }
+  
+  /* Display dropdown menu when showDropdown is true */
+  .dropdown-container .dropdown-menu {
+    display: block;
+  }
+  .dropdown-container{
+    position: relative; 
+  }
+  

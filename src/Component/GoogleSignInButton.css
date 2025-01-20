@@ -1,0 +1,16 @@
+.Googlebutton{
+    background: black;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 300px;
+
+
+}
+
+.btn_icon{
+    width: 22px !important;
+}
+

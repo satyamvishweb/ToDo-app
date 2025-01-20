@@ -1,0 +1,14 @@
+.custom-button {
+    border: 1px solid transparent; /* Border for the button */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    display: inline-block; /* Inline block for proper spacing */
+  }
+  
+  .custom-button:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+  }
+  

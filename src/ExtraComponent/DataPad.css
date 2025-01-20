@@ -1,0 +1,61 @@
+.datapad-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f5f5f5 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: scroll; /* Ensure scrolling is enabled */
+  margin: 0 auto;
+  height: 50vh;
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari, etc.) */
+.datapad-container::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+.datapad-container {
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* Header (Title) Styles */
+.datapad-header {
+  top: 10px;
+  width: fit-content;
+  left: 10px;
+  padding: 5px 10px;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--header-bg-color, #f9e2f3); /* Default color */
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Styles */
+.datapad-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.empty_div {
+  height: 66vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .datapad-content {
+    font-size: 14px;
+  }
+}
